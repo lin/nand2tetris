@@ -1,0 +1,10 @@
+function p 0
+  push constant 4
+  call fact 1
+function fact 2
+  push constant 1
+  pop local 0
+  push constant 1
+  pop local 1
+  push local 0
+  return

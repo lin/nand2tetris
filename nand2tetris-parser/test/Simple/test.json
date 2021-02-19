@@ -1,0 +1,227 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 65,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 5,
+      "column": 1
+    }
+  },
+  "body": {
+    "type": "Class",
+    "start": 0,
+    "end": 65,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 5,
+        "column": 1
+      }
+    },
+    "id": {
+      "type": "Identifier",
+      "start": 6,
+      "end": 7,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 6
+        },
+        "end": {
+          "line": 1,
+          "column": 7
+        }
+      },
+      "name": "A"
+    },
+    "body": [
+      {
+        "type": "MethodDeclaration",
+        "start": 12,
+        "end": 63,
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 2
+          },
+          "end": {
+            "line": 4,
+            "column": 3
+          }
+        },
+        "methodKind": "function",
+        "methodReturnType": "void",
+        "id": {
+          "type": "Identifier",
+          "start": 26,
+          "end": 27,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 16
+            },
+            "end": {
+              "line": 2,
+              "column": 17
+            }
+          },
+          "name": "X"
+        },
+        "params": null,
+        "body": [
+          {
+            "type": "LetStatement",
+            "start": 37,
+            "end": 59,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 26
+              }
+            },
+            "left": {
+              "type": "Identifier",
+              "start": 41,
+              "end": 42,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 8
+                },
+                "end": {
+                  "line": 3,
+                  "column": 9
+                }
+              },
+              "name": "x"
+            },
+            "init": {
+              "type": "BinaryExpression",
+              "start": 47,
+              "end": 58,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 14
+                },
+                "end": {
+                  "line": 3,
+                  "column": 25
+                }
+              },
+              "left": {
+                "type": "IntegerLiteral",
+                "start": 45,
+                "end": 46,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 13
+                  }
+                },
+                "value": 3
+              },
+              "operator": "+",
+              "right": {
+                "type": "BinaryExpression",
+                "start": 51,
+                "end": 58,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 18
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 25
+                  }
+                },
+                "left": {
+                  "type": "IntegerLiteral",
+                  "start": 49,
+                  "end": 50,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 17
+                    }
+                  },
+                  "value": 4
+                },
+                "operator": "-",
+                "right": {
+                  "type": "BinaryExpression",
+                  "start": 55,
+                  "end": 58,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 22
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 25
+                    }
+                  },
+                  "left": {
+                    "type": "IntegerLiteral",
+                    "start": 53,
+                    "end": 54,
+                    "loc": {
+                      "start": {
+                        "line": 3,
+                        "column": 20
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 21
+                      }
+                    },
+                    "value": 6
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "IntegerLiteral",
+                    "start": 57,
+                    "end": 58,
+                    "loc": {
+                      "start": {
+                        "line": 3,
+                        "column": 24
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 25
+                      }
+                    },
+                    "value": 7
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
